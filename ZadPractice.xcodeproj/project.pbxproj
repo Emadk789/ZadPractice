@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6953F16825AC383200F3E04B /* HyperMarketDetailsViewControllerSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953F16725AC383200F3E04B /* HyperMarketDetailsViewControllerSubViewController.swift */; };
+		696C697D25A9400700ECC4F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C697C25A9400700ECC4F2 /* AppDelegate.swift */; };
+		696C697F25A9400700ECC4F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C697E25A9400700ECC4F2 /* SceneDelegate.swift */; };
+		696C698125A9400700ECC4F2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696C698025A9400700ECC4F2 /* HomeViewController.swift */; };
+		696C698425A9400700ECC4F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696C698225A9400700ECC4F2 /* Main.storyboard */; };
+		696C698625A9401F00ECC4F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696C698525A9401F00ECC4F2 /* Assets.xcassets */; };
+		696C698925A9401F00ECC4F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696C698725A9401F00ECC4F2 /* LaunchScreen.storyboard */; };
+		69C79A4325A9501F0070AF69 /* HyperMarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C79A4225A9501F0070AF69 /* HyperMarketCollectionViewCell.swift */; };
+		69C79A4A25A95DE20070AF69 /* AdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C79A4925A95DE20070AF69 /* AdsCollectionViewCell.swift */; };
+		69C79A4E25A95DFB0070AF69 /* ShopByBrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C79A4D25A95DFB0070AF69 /* ShopByBrandCollectionViewCell.swift */; };
+		69C79A5225A9955F0070AF69 /* SeeAllAdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C79A5125A9955F0070AF69 /* SeeAllAdsViewController.swift */; };
+		69C79A5C25A9A2930070AF69 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C79A5B25A9A2930070AF69 /* ProfileViewController.swift */; };
+		69C79A6225A9A7770070AF69 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C79A6125A9A7770070AF69 /* EditProfileViewController.swift */; };
+		69C79A6725A9A7B20070AF69 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C79A6625A9A7B20070AF69 /* RewardsViewController.swift */; };
+		69DE985325AA01CF00CD83FE /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE985225AA01CF00CD83FE /* HelpViewController.swift */; };
+		69DE985625AA025B00CD83FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE985525AA025B00CD83FE /* SettingsViewController.swift */; };
+		69DE985A25AABC4A00CD83FE /* HyperMarketDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE985925AABC4A00CD83FE /* HyperMarketDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6953F16725AC383200F3E04B /* HyperMarketDetailsViewControllerSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMarketDetailsViewControllerSubViewController.swift; sourceTree = "<group>"; };
+		696C697925A9400700ECC4F2 /* ZadPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZadPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696C697C25A9400700ECC4F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		696C697E25A9400700ECC4F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		696C698025A9400700ECC4F2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		696C698325A9400700ECC4F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		696C698525A9401F00ECC4F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		696C698825A9401F00ECC4F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		696C698A25A9402000ECC4F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C79A4225A9501F0070AF69 /* HyperMarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMarketCollectionViewCell.swift; sourceTree = "<group>"; };
+		69C79A4925A95DE20070AF69 /* AdsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		69C79A4D25A95DFB0070AF69 /* ShopByBrandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopByBrandCollectionViewCell.swift; sourceTree = "<group>"; };
+		69C79A5125A9955F0070AF69 /* SeeAllAdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllAdsViewController.swift; sourceTree = "<group>"; };
+		69C79A5B25A9A2930070AF69 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		69C79A6125A9A7770070AF69 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		69C79A6625A9A7B20070AF69 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		69DE985225AA01CF00CD83FE /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		69DE985525AA025B00CD83FE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		69DE985925AABC4A00CD83FE /* HyperMarketDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMarketDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696C697625A9400700ECC4F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6953F16625AC37E700F3E04B /* Hyper Market Details */ = {
+			isa = PBXGroup;
+			children = (
+				69DE985925AABC4A00CD83FE /* HyperMarketDetailsViewController.swift */,
+				6953F16725AC383200F3E04B /* HyperMarketDetailsViewControllerSubViewController.swift */,
+			);
+			path = "Hyper Market Details";
+			sourceTree = "<group>";
+		};
+		696C697025A9400600ECC4F2 = {
+			isa = PBXGroup;
+			children = (
+				696C697B25A9400700ECC4F2 /* ZadPractice */,
+				696C697A25A9400700ECC4F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		696C697A25A9400700ECC4F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696C697925A9400700ECC4F2 /* ZadPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696C697B25A9400700ECC4F2 /* ZadPractice */ = {
+			isa = PBXGroup;
+			children = (
+				69C79A5525A9A2130070AF69 /* Controllers */,
+				696C697C25A9400700ECC4F2 /* AppDelegate.swift */,
+				696C697E25A9400700ECC4F2 /* SceneDelegate.swift */,
+				696C698225A9400700ECC4F2 /* Main.storyboard */,
+				696C698525A9401F00ECC4F2 /* Assets.xcassets */,
+				696C698725A9401F00ECC4F2 /* LaunchScreen.storyboard */,
+				696C698A25A9402000ECC4F2 /* Info.plist */,
+			);
+			path = ZadPractice;
+			sourceTree = "<group>";
+		};
+		69C79A5425A9A1F20070AF69 /* Main Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				69C79A5625A9A2450070AF69 /* Home Tab */,
+				69C79A5A25A9A2710070AF69 /* Profile Tab */,
+			);
+			path = "Main Tabs";
+			sourceTree = "<group>";
+		};
+		69C79A5525A9A2130070AF69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69C79A5425A9A1F20070AF69 /* Main Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		69C79A5625A9A2450070AF69 /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				696C698025A9400700ECC4F2 /* HomeViewController.swift */,
+				69C79A5825A9A25A0070AF69 /* Home Sub Tabs */,
+			);
+			path = "Home Tab";
+			sourceTree = "<group>";
+		};
+		69C79A5825A9A25A0070AF69 /* Home Sub Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				69DE985825AABC1300CD83FE /* Hyper Market */,
+				69C79A4925A95DE20070AF69 /* AdsCollectionViewCell.swift */,
+				69C79A5125A9955F0070AF69 /* SeeAllAdsViewController.swift */,
+				69C79A4D25A95DFB0070AF69 /* ShopByBrandCollectionViewCell.swift */,
+			);
+			path = "Home Sub Tabs";
+			sourceTree = "<group>";
+		};
+		69C79A5A25A9A2710070AF69 /* Profile Tab */ = {
+			isa = PBXGroup;
+			children = (
+				69C79A5B25A9A2930070AF69 /* ProfileViewController.swift */,
+				69C79A5F25A9A7360070AF69 /* Sub Tabs */,
+			);
+			path = "Profile Tab";
+			sourceTree = "<group>";
+		};
+		69C79A5F25A9A7360070AF69 /* Sub Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				69C79A6125A9A7770070AF69 /* EditProfileViewController.swift */,
+				69C79A6025A9A7420070AF69 /* Table View Sub Views */,
+			);
+			path = "Sub Tabs";
+			sourceTree = "<group>";
+		};
+		69C79A6025A9A7420070AF69 /* Table View Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				69C79A6625A9A7B20070AF69 /* RewardsViewController.swift */,
+				69DE985225AA01CF00CD83FE /* HelpViewController.swift */,
+				69DE985525AA025B00CD83FE /* SettingsViewController.swift */,
+			);
+			path = "Table View Sub Views";
+			sourceTree = "<group>";
+		};
+		69DE985825AABC1300CD83FE /* Hyper Market */ = {
+			isa = PBXGroup;
+			children = (
+				69C79A4225A9501F0070AF69 /* HyperMarketCollectionViewCell.swift */,
+				6953F16625AC37E700F3E04B /* Hyper Market Details */,
+			);
+			path = "Hyper Market";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696C697825A9400700ECC4F2 /* ZadPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696C698D25A9402000ECC4F2 /* Build configuration list for PBXNativeTarget "ZadPractice" */;
+			buildPhases = (
+				696C697525A9400700ECC4F2 /* Sources */,
+				696C697625A9400700ECC4F2 /* Frameworks */,
+				696C697725A9400700ECC4F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZadPractice;
+			productName = ZadPractice;
+			productReference = 696C697925A9400700ECC4F2 /* ZadPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696C697125A9400600ECC4F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					696C697825A9400700ECC4F2 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 696C697425A9400600ECC4F2 /* Build configuration list for PBXProject "ZadPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 696C697025A9400600ECC4F2;
+			productRefGroup = 696C697A25A9400700ECC4F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696C697825A9400700ECC4F2 /* ZadPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696C697725A9400700ECC4F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696C698925A9401F00ECC4F2 /* LaunchScreen.storyboard in Resources */,
+				696C698625A9401F00ECC4F2 /* Assets.xcassets in Resources */,
+				696C698425A9400700ECC4F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696C697525A9400700ECC4F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DE985325AA01CF00CD83FE /* HelpViewController.swift in Sources */,
+				696C698125A9400700ECC4F2 /* HomeViewController.swift in Sources */,
+				69C79A4E25A95DFB0070AF69 /* ShopByBrandCollectionViewCell.swift in Sources */,
+				69C79A4A25A95DE20070AF69 /* AdsCollectionViewCell.swift in Sources */,
+				69C79A4325A9501F0070AF69 /* HyperMarketCollectionViewCell.swift in Sources */,
+				696C697D25A9400700ECC4F2 /* AppDelegate.swift in Sources */,
+				69C79A6725A9A7B20070AF69 /* RewardsViewController.swift in Sources */,
+				696C697F25A9400700ECC4F2 /* SceneDelegate.swift in Sources */,
+				69DE985A25AABC4A00CD83FE /* HyperMarketDetailsViewController.swift in Sources */,
+				69C79A5C25A9A2930070AF69 /* ProfileViewController.swift in Sources */,
+				6953F16825AC383200F3E04B /* HyperMarketDetailsViewControllerSubViewController.swift in Sources */,
+				69C79A5225A9955F0070AF69 /* SeeAllAdsViewController.swift in Sources */,
+				69C79A6225A9A7770070AF69 /* EditProfileViewController.swift in Sources */,
+				69DE985625AA025B00CD83FE /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		696C698225A9400700ECC4F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696C698325A9400700ECC4F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		696C698725A9401F00ECC4F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696C698825A9401F00ECC4F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696C698B25A9402000ECC4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		696C698C25A9402000ECC4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696C698E25A9402000ECC4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ363JP6R5;
+				INFOPLIST_FILE = ZadPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EmadAlbarnawi.ZadPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		696C698F25A9402000ECC4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQ363JP6R5;
+				INFOPLIST_FILE = ZadPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.EmadAlbarnawi.ZadPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696C697425A9400600ECC4F2 /* Build configuration list for PBXProject "ZadPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696C698B25A9402000ECC4F2 /* Debug */,
+				696C698C25A9402000ECC4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696C698D25A9402000ECC4F2 /* Build configuration list for PBXNativeTarget "ZadPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696C698E25A9402000ECC4F2 /* Debug */,
+				696C698F25A9402000ECC4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696C697125A9400600ECC4F2 /* Project object */;
+}
